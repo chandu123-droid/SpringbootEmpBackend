@@ -49,6 +49,11 @@
       <artifactId>spring-boot-devtools</artifactId>
       <optional>true</optional>
     </dependency>
+<dependency>
+    <groupId>org.postgresql</groupId>
+    <artifactId>postgresql</artifactId>
+    <version>42.6.0</version> <!-- Use latest stable -->
+</dependency>
 
     <!-- testing -->
     <dependency>
